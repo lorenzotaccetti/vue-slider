@@ -34,14 +34,14 @@ const app = new Vue(
             ]
         },
         methods: {
-            showNextSlider: function() {
+            showNextSlide: function() {
                 if (this.currentActiveSlide < this.slides.length - 1) {
                     this.currentActiveSlide++;
                 } else{
                     this.currentActiveSlide = 0;
                 }
             },
-            showPreviousSlider: function(){
+            showPreviousSlide: function(){
                 if (this.currentActiveSlide > 0) {
                     this.currentActiveSlide--;
                 } else{
